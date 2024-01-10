@@ -44,7 +44,7 @@ namespace DesafioFundamentos.Models
             // Verifica se há veículos no estacionamento
             if (veiculos.Any())
             {
-                Console.WriteLine("====================================");
+                Console.WriteLine("===================================");
                 Console.WriteLine($"TOTAL DE VEICULOS ESTACIONADOS: {veiculos.Count}");
                 Console.WriteLine("Os veículos estacionados são:");
                 foreach(string veiculo in veiculos)
